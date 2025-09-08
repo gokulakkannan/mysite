@@ -1,0 +1,64 @@
+/* custom.css */
+
+/* General body styling */
+body {
+  background: #f9f9f9;
+  color: #222;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  line-height: 1.7;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  padding: 1.5rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Navigation links */
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #ff9800;
+}
+
+/* Main content */
+main {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  margin: 2rem auto;
+  max-width: 700px;
+}
+
+/* Post titles */
+h1, h2, h3 {
+  color: #222;
+  font-weight: 700;
+}
+
+/* Links */
+a {
+  color: #ff9800;
+  text-decoration: underline;
+}
+a:hover {
+  color: #e65100;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  border-radius: 0 0 8px 8px;
+}
